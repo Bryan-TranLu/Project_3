@@ -45,6 +45,7 @@ Other useful functions:
 
 
 ### Run the Code
+
 To run the code, make sure that you compile the code with the proper compiler, and deploy in any of the Remix VM environments offered. After deploying, expand the "Deployed Contracts" section and use the buttons and value fields to accomplish your goals. You can then run the user interface version of the app by running the command `streamlit run FILENAME.py`
 
 ## Contributors
