@@ -23,6 +23,7 @@ Streamlit
 
 
 ## Usage
+It is less overwhelming to interact with the app on the user interface by running the command `streamlit run FILENAME.py` in your terminal. Note: Make sure you are in the proper directory when you run this. Once you run this command, a webpage will open where you can intuitively interact with the code. However, more for tech-savvy users you can check out the solidity file, compile, and deploy it to see the mechanisms of the backend code.
 
 ### Code
 Code for the backend is primarily stored in the XXXX.sol file LINK HERE. Therein, the contract RealEstateToken is created.
@@ -36,9 +37,12 @@ There are certain functions which are important to highlight for anyone who want
 - If a buyer is identified, the seller can then use the ERC721 standard `approve` function to allow permissions to a certain address to purchase the token
 - Once approved, the buyer can then use the `purchaseNFT` function to specify the token they want to buy and send the appropriate amount of ether (whatever the list price was)
 
-Other useful functions:
+Other useful functions mainly for browsing the marketplace or querying token and address info:
 - `getApprovedTokensForAddress` allows one to see the tokenIDs that have been approved for a specfic address
-- 
+- `getUserTokens` allows one to see all tokenIDs associated with a wallet regardless of status
+- `getTokensForSale` allows one to see any tokenIDs currently listed and their associated prices
+- ERC721 function `tokenURI` maps tokenID to URI string (the house address)
+- ERC721 function `ownerOf` allows you to see the address owning any given tokenID
 
 
 
