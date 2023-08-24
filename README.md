@@ -6,8 +6,8 @@
 - [Background](#background)
 - [Dataset Features](#dataset_features)
 - [Installation Requirements](#installation-requirements)
-- [Approach](#approach)
-- [Contributors](#contributors)
+- [Usage](#usage)
+- [Code](#code)
 - [Sources](#sources)
 - [License](#license)
 
