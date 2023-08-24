@@ -1,6 +1,20 @@
-# Project_3
+<h1 align="center">Project 3</h1>
 
+## Table of Contents
+
+- [Description](#description)
+- [Background](#background)
+- [Dataset Features](#dataset_features)
+- [Installation Requirements](#installation-requirements)
+- [Approach](#approach)
+- [Contributors](#contributors)
+- [Sources](#sources)
+- [License](#license)
+
+## Description
 This is a project in which we attempt to create a NFT market place where users can sell and buy homes.
+
+## Background
 
 ## Technologies
 Remix IDE
