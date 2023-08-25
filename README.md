@@ -14,6 +14,10 @@
 ## Description
 This is a project in which we attempt to create a NFT market place where users can sell and buy homes.
 
+## Installation Requirements
+npm install package.json - required openzepplin node files need to be populated within core code base
+Solidity compiler version 0.5.0
+
 ## Background
 
 ## Technologies
